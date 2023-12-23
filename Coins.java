@@ -4,6 +4,9 @@
  */
 public class Coins {
 	public static void main(String[] args) {
-		// Put your code here
+		/*Receives an amount of money and prints it with
+		the highest amount of quarters along with the remainder*/
+		int amount = Integer.parseInt(args[0]);
+		System.out.println("Use " + amount / 25 + " quarters and " + amount % 25 + " cents");
 	}
 }
